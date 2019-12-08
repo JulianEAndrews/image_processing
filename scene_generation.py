@@ -4,7 +4,9 @@ import numpy as np
 
 
 def generateDummyScene(numRows = 5, numCols = 5):
-  dummyScene = np.zeros((5,5), dtype = 'int16')
+  #dummyScene = np.zeros((5,5), dtype = 'int16')
+  #use floats for now...
+  dummyScene = np.ones((5,5))
   
   #row , col
   dummyScene[2,2]   = 4
