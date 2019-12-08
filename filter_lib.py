@@ -4,7 +4,7 @@ import scene_generation as scene
 
 
 
-def getRow(im):
+def getCoM(im):
   nonZero = 0
   colAcc = 0
   rowAcc = 0 
@@ -29,7 +29,7 @@ def testFunction():
   im = thresh(im,2)
   
   print(im)
-  print(getRow(im))
+  print(getCoM(im))
   
 if __name__ == '__main__':
   testFunction()
